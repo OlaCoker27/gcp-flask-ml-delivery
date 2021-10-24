@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     print("I am inside hello world")
-    return 'Hello World! CD'
+    return 'Hello World! CD Additional changes made to the file to test GCP CD'
 
 @app.route('/echo/<name>')
 def echo(name):
